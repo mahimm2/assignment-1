@@ -1,1 +1,77 @@
 @import url("https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+/* font-family: "Fira Sans", serif */
+* {
+    padding: 0;
+    margin: 0;
+    font-family: Fira Sans;
+}
+
+/* nav >ul {
+    display: flex;
+    list-style: none;
+}
+.nav-parent {
+    text-decoration: none;
+    margin-top: 24px;
+    margin-left: 160px;
+    margin-bottom: 24px;
+    margin-right: 24px;
+    gap: 942px;
+} */
+
+#hero {
+    border-radius: 24px;
+    background: rgb(198, 228, 214);
+    padding: 64px 80px 64px 80px;
+    margin: 20px 140px 60px 140px;
+    display: flex;   
+
+}
+
+.hero-1 {
+    flex-direction: column;
+    height: 260px;
+    width: 498px;
+    align-items: center;
+    margin-top: 48px;
+    gap: 20px;
+}
+
+#hero .hero-subtitle {
+    color: rgba(14, 14, 14, 0.5);
+    font-size: 19.2px;
+    font-weight: 500;
+    line-height: 23.2px;
+    letter-spacing: 0%;
+}
+
+#hero .hero-title {
+    color: rgb(14, 14, 14);
+    font-size: 44.8px;
+    font-weight: 560;
+    line-height: 53.6px;
+    letter-spacing: 0%;  
+    margin-top: 6px;
+    margin-bottom: 20px; 
+}
+
+#hero .hero-image img {
+    width: 379px;
+    height: 320px;
+}
+
+#hero .hero-button {
+    border-radius: 8px;
+    background: rgb(0, 106, 80);
+    width: 216px;
+    height: 49px;
+    color: rgb(255, 255, 255);
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 18px;
+    letter-spacing: 0%;
+    text-align:center;
+    border: none;
+    cursor: pointer;
+}
